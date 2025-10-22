@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!--Link CSS-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
     <!--Page Title-->
     <title>TCG Cookies</title>
     <!--Attempted Favicon-->
@@ -14,29 +14,31 @@
 </head>
 
 <body>
-    <link rel="stylesheet" href="style.css"?>
+    <!--Game Text/link-->
     <a href="game/game.html">Play Now</a>
     <h4>OR</h4>
+    <!--Save Text/link-->
     <a href="save.html">Save Codes</a>
-
+    <!--Save Reasurrance-->
     <h3>DON'T WORRY IT WILL SAVE AUTOMATICALLY EVERY 60 SECONDS OR YOU CAN MANUAL SAVE AND GET A FILE</h3>
+    <!--Me Link-->
     <p>Made By <a href="https://www.youtube.com/@th3c4tg4m3r/">TH3C@g4M3r</a> (click)</p>
-
 </body>
+    <!--About Blank Button-->    
     <h2></h2>
-    <button class="glow-button" onclick="openGame()">Open in about blank</button>
-    <script>
-        function openGame() {
-            var win = window.open()
-            var url = "https://th3c4tg4m3r.github.io/TCG-Cookies/"
-            var iframe = win.document.createElement('iframe')
-            iframe.style.width = "100%";
-            iframe.style.height = "100%";
-            iframe.style.border = "none";
-            iframe.src = url
-            win.document.body.appendChild(iframe)
-        }
-    </script>
+        <button class="glow-button" onclick="openGame()">Open in about blank</button>
+        <script>
+            function openGame() {
+                var win = window.open()
+                var url = "https://th3c4tg4m3r.github.io/TCG-Cookies/"
+                var iframe = win.document.createElement('iframe')
+                iframe.style.width = "100%";
+                iframe.style.height = "100%";
+                iframe.style.border = "none";
+                iframe.src = url
+                win.document.body.appendChild(iframe)
+            }
+        </script>
 
 </html>
 
